@@ -25,24 +25,8 @@ public class Main {
                 3
         ));
 
-        for (int i = 0; i < questionList.size(); i++) {
-            System.out.println((i + 1) + "." + questionList.get(i));
-            System.out.print("Enter your choice: ");
-            int ans = sc.nextInt();
-            answerList.add(new Answer(questionList.get(i), ans));
-        }
-
-        int countOfCorrect = 0;
-        for (int i = 0; i < answerList.size(); i++) {
-            Answer answer = answerList.get(i);
-            if (answer.isCorrect()) countOfCorrect++;
-            else {
-                System.out.println("Incorrect answer!");
-                System.out.println(answer.getQuestionText());
-                System.out.println("Correct answer: " + answer.getCorrectAnswer());
-            }
-        }
-        System.out.printf("Count of correct answers: %d ", countOfCorrect);
+        Test test = new Test(questionList,sc);
+        test.run();
 
     }
 }
