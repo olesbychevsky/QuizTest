@@ -1,4 +1,6 @@
-package com.company;
+package com.company.models;
+
+import com.company.models.Question;
 
 public class Answer {
     private Question question;

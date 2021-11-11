@@ -1,4 +1,6 @@
-package com.company;
+package com.company.collection;
+
+import com.company.models.Answer;
 
 import java.util.Arrays;
 

@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.collection.AnswerList;
+import com.company.collection.QuestionList;
+import com.company.models.Answer;
+
 import java.util.Scanner;
 
 public class Test {
