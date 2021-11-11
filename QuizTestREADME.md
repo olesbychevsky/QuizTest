@@ -1,2 +1,3 @@
 # QuizTest
-Short quiz test
+Exercise
+Short quiz test using OOP
